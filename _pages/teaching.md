@@ -2,11 +2,15 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: false
-nav_order: 6
+description: Teaching activities at Monash University.
+nav: true
+nav_order: 4
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## Teaching Associate, Monash University
 
-Organize your courses by years, topics, or universities, however you like!
+- **FIT5197 — Statistical Data Modelling** (2024 Semester 2–present): tutorials on statistical inference, regression, model evaluation, and Python-based data analysis.
+
+- **FIT9136 — Introduction to Python** (2025 Semester 2; 2026 Semester 2): tutorials introducing programming fundamentals, problem solving, and Python.
+
+- **FIT1008 — Fundamentals of Algorithms** (2025 Semester 1): tutorials on algorithmic thinking, data structures, complexity, and implementation.

@@ -1,85 +1,9 @@
----
----
-
-@article{zhang2025ticvla,
-  title={TIC-VLA: A Think-in-Control Vision-Language-Action Model for Robot Navigation in Dynamic Environments},
-  journal={International Conference on Machine Learning (ICML)},
-  year={2026},
-  url = {https://arxiv.org/abs/2602.02459},
-  preview = {ticvla.png},
-  selected = {true},
-  abstract={Robots in dynamic, human-centric environments must follow language instructions while maintaining real-time reactive control. Vision-language-action (VLA) models offer a promising framework, but they assume temporally aligned reasoning and control, despite semantic inference being inherently delayed relative to real-time action. We introduce Think-in-Control (TIC)-VLA, a latency-aware framework that explicitly models delayed semantic reasoning during action generation. TIC-VLA defines a delayed semantic-control interface that conditions action generation on delayed vision-language semantic states and explicit latency metadata, in addition to current observations, enabling policies to compensate for asynchronous reasoning. We further propose a latency-consistent training pipeline that injects reasoning inference delays during imitation learning and online reinforcement learning, aligning training with asynchronous deployment. To support realistic evaluation, we present DynaNav, a physics-accurate, photo-realistic simulation suite for language-guided navigation in dynamic environments. Extensive experiments in simulation and on a real robot show that TIC-VLA consistently outperforms prior VLA models while maintaining robust real-time control under multi-second reasoning latency. },
-  note={Zhiyu Huang*, <u>Yun Zhang*</u>, Johnson Liu, Rui Song, Chen Tang, and Jiaqi Ma},
+@inproceedings{zhang2026hidream,
+  title     = {{Hi-DREAM}: Brain-Inspired Hierarchical Diffusion for {fMRI}-to-Image Reconstruction via {ROI} Encoder and VisuAl Mapping},
+  author    = {Zhang, Guowei and Zhao, Yun and Sun, Kai and Khajehnejad, Moein and Razi, Adeel and Phung, Dinh and Kuhlmann, Levin},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  year      = {2026},
+  code      = {https://github.com/Zhang-gw97/Hi-Dream},
+  selected  = {true},
+  abstract  = {Hi-DREAM introduces a brain-inspired hierarchical diffusion framework for fMRI-to-image reconstruction. It aligns early, middle, and late visual-cortical regions with corresponding stages of a generative model to improve reconstruction quality and interpretability.}
 }
-
-@article{zhang2025micbev,
-  title={MIC-BEV: Multi-Infrastructure Camera Bird's-Eye-View Transformer with Relation-Aware Fusion for 3D Object Detection},
-  journal={Under Review, Best Paper Award (Third Prize)for ICCV 2025DriveX Workshop},
-  year={2025},
-  url = {https://arxiv.org/abs/2510.24688},
-  preview = {mic-bev.png},
-  selected = {true},
-  abstract={Infrastructure-based perception plays a crucial role in intelligent transportation systems, offering global situational awareness and enabling cooperative autonomy. However, existing camera-based detection models often underperform in such scenarios due to challenges such as multi-view infrastructure setup, diverse camera configurations, degraded visual inputs, and various road layouts. We introduce MIC-BEV, a Transformer-based bird's-eye-view (BEV) perception framework for infrastructure-based multi-camera 3D object detection. MIC-BEV flexibly supports a variable number of cameras with heterogeneous intrinsic and extrinsic parameters and demonstrates strong robustness under sensor degradation. The proposed graph-enhanced fusion module in MIC-BEV integrates multi-view image features into the BEV space by exploiting geometric relationships between cameras and BEV cells alongside latent visual cues. To support training and evaluation, we introduce M2I, a synthetic dataset for infrastructure-based object detection, featuring diverse camera configurations, road layouts, and environmental conditions. Extensive experiments on both M2I and the real-world dataset RoScenes demonstrate that MIC-BEV achieves state-of-the-art performance in 3D object detection. It also remains robust under challenging conditions, including extreme weather and sensor degradation. These results highlight the potential of MIC-BEV for real-world deployment.},
-  note={<u>Yun Zhang</u>, Zhaoliang Zheng, Johnson Liu, Zhiyu Huang, Zewei Zhou, Zonglin Meng, Tianhui Cai, and Jiaqi Ma},
-}
-
-@article{zhang2025inspe,
-  title={InSPE: Rapid Evaluation of Heterogeneous Multi-Modal Infrastructure Sensor Placement},
-  journal={Under Review},
-  year={2025},
-  url = {https://arxiv.org/abs/2504.08240},
-  preview = {inspe.png},
-  selected = {true},
-  abstract={This paper introduces InSPE, a framework for evaluating heterogeneous multi-modal infrastructure sensor placement by integrating metrics like sensor coverage, occlusion, and information gain, supported by a new dataset and benchmarking experiments to optimize perception in intelligent intersections.},
-  note={Zhaoliang Zheng*, <u>Yun Zhang*</u>, Zonglin Meng, Johnson Liu, Xin Xia, Jiaqi Ma},
-}
-
-@article{zhang2025agentalign,
-  title={AgentAlign: Misalignment-Adapted Multi-Agent Perception for Resilient Inter-Agent Sensor Correlations},
-  journal={IEEE Transactions on Intelligent Transportation Systems (T-ITS)},
-  year={2025},
-  url={https://arxiv.org/abs/2412.06142},
-  preview = {agentalign1.png},
-  abstract={This work presents AgentAlign, a real-world multi-agent perception framework that mitigates multi-modality misalignment in cooperative autonomous systems using cross-modality feature alignment and introduces the V2XSet-Noise dataset for robust evaluation.},
-  note={Zonglin Meng, <u>Yun Zhang</u>, Zhaoliang Zheng, Seth Z. Zhao, Jiaqi Ma}
-}
-
-@article{zhang2025relmap,
-  title={RelMap: Enhancing Online Map Construction with Class-Aware Spatial Relation and Semantic Priors},
-  journal={International Conference on Robotics and Automation (ICRA)},
-  year={2025},
-  preview = {relmap.png},
-  abstract={RelMap is an online HD map construction framework that enhances vectorized map generation using class-aware spatial relations and semantic priors, significantly improving accuracy and data efficiency on nuScenes and Argoverse 2 datasets.},
-  note={Tianhui Cai, <u>Yun Zhang</u>, Zewei Zhou, Zhiyu Huang, Jiaqi Ma}
-}
-
-@article{zhang2025v2xpnp,
-  title={V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent Perception and Prediction},
-  journal={International Conference on Computer Vision (ICCV)},
-  year={2025},
-  url={https://arxiv.org/abs/2412.01812},
-  preview = {v2xpnp.png},
-  abstract={V2XPnP proposes a spatio-temporal fusion framework for multi-agent perception and prediction, leveraging a Transformer-based architecture and a novel sequential dataset to benchmark when, what, and how to fuse information in V2X scenarios.},
-  note={Zewei Zhou, Hao Xiang, Zhaoliang Zheng, Seth Z. Zhao, Mingyue Lei, <u>Yun Zhang</u>, Tianhui Cai, Xinyi Liu, Johnson Liu, Maheswari Bajji, Xin Xia, Zhiyu Huang, Bolei Zhou, Jiaqi Ma}
-}
-
-@article{huang2025mdg,
-  title={MDG: Multi-Agent Behavior Modeling in Traffic Scenarios through Masked Denoising Generation},
-  journal={CVPR 2026 Findings Track},
-  year={2025},
-  preview = {mdg.png},
-  abstract={MDG is a novel generative model that formulates multi-agent trajectory generation as a masked denoising process.},
-  note={Zhiyu Huang, Zewei Zhou, Tianhui Cai, <u>Yun Zhang</u>, Jiaqi Ma}
-}
-
-@article{huang2025autovla,
-  title={AutoVLA: Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning},
-  journal={Neural Information Processing Systems (NeurIPS)},
-  year={2025},
-  url = {https://autovla.github.io/},
-  preview = {autovla.png},
-  selected = {true},
-  abstract={AutoVLA is a vision-language-action model for end-to-end autonomous driving with adaptive reasoning and reinforcement fine-tuning capabilities.},
-  note={Zhiyu Huang, Zewei Zhou, Tianhui Cai, Seth Z. Zhao, <u>Yun Zhang</u>, Jiaqi Ma}
-}
-

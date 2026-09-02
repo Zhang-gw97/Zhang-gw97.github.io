@@ -2,27 +2,27 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Yun Zhang # the website title (if blank, full name will be used instead)
-first_name: Yun
+title: Guowei Zhang # the website title (if blank, full name will be used instead)
+first_name: Guowei
 middle_name:
 last_name: Zhang
-email: yun666@g.ucla.edu
+email: guowei.zhang@monash.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Yun Zhang is a Computer Vision researcher at UCLA's Mobility Lab, working on autonomous driving and intelligent perception systems.
+  Guowei Zhang is a PhD candidate at Monash University researching brain decoding and generative AI.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: Yun Zhang, UCLA, Mobility Lab, HandsomeYun # add your own keywords or leave empty
+keywords: Guowei Zhang, Monash University, brain decoding, fMRI, generative AI, computer vision
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: prof_pic.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: profile.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://HandsomeYun.github.io # the base hostname & protocol for your site
+url: https://Zhang-gw97.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
-author_name: "Yun Zhang"
+author_name: "Guowei Zhang"
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -42,7 +42,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: trueß
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -66,7 +66,7 @@ max_width: 930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image:  /assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image
+og_image: /assets/img/profile.svg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -79,7 +79,7 @@ dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
-github_username: HandsomeYun # your GitHub user name
+github_username: Zhang-gw97 # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 inspirehep_id: # Inspire HEP author ID
@@ -88,16 +88,16 @@ kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-linkedin_username: yun-zhang-146848211 # your LinkedIn user name
+linkedin_username: # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
-orcid_id: # your ORCID ID
+orcid_id: 0009-0003-9309-2185 # your ORCID ID
 osf_id: # your OSF ID
 pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
-scholar_userid: XXevN4cAAAAJ # your Google Scholar ID
+scholar_userid: bduVhIUAAAAJ # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id
@@ -114,7 +114,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  Looking forward to being contacted through my email!
+  Please feel free to contact me by email about research and collaboration.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -128,14 +128,14 @@ pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
 # google_site_verification: uhNm2xChYy91ubt-CSiiMuXQE14DP0fqzD2cXdcU9H0 # your google-site-verification ID (Google Search Console)
-google_site_verification: 746paGo7Kzft04LPdPp7GpQqYC-14YFA0hteR3GgUiU
+google_site_verification:
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Yun's Blog
+blog_name: Guowei's Blog
 blog_description: This space is dedicated to curiosity and continuous learning.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -306,7 +306,7 @@ display_categories: ["machine-learning", "datasets", "carla-posts", "devops"] # 
 
 scholar:
   last_name: [Zhang]
-  first_name: [Yun]
+  first_name: [Guowei]
 
   style: apa
   locale: en
@@ -389,7 +389,7 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # keep builds portable; original images are served directly
   widths:
     - 480
     - 800
@@ -417,11 +417,11 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics: true # enables google analytics
+enable_google_analytics: false # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
-enable_google_verification: true # enables google site verification
-enable_bing_verification: true # enables bing site verification
+enable_google_verification: false # enables google site verification
+enable_bing_verification: false # enables bing site verification
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
