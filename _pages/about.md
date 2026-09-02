@@ -23,6 +23,6 @@ I am a PhD candidate in the Faculty of Information Technology at [Monash Univers
 
 My work sits at the intersection of neuroscience, computer vision, and generative modelling. I am interested in neuroscience-inspired learning methods that connect the hierarchical organisation of the visual cortex with modern diffusion models, improving both reconstruction quality and interpretability.
 
-Before beginning my PhD, I completed a Master of Research at Macquarie University, a Master of Data Science at the University of Sydney, and a Bachelor of Engineering (Honours) at UNSW.
+Before beginning my PhD, I completed a Master of Data Science at the University of Sydney and a Bachelor of Engineering (Honours) at UNSW.
 
 I welcome conversations about fMRI-based brain decoding, neural representations, and generative modelling.
