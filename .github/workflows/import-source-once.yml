@@ -38,7 +38,7 @@ jobs:
 
           test "$(git -C "${source_dir}" rev-parse HEAD)" = "9b98616dd297fd2b597f69782e7c18d902095af2"
 
-          rsync -a --delete --exclude='.git/' "${source_dir}/" "${GITHUB_WORKSPACE}/"
+          rsync -a --delete --exclude='.git/' --exclude='.github/workflows/' "${source_dir}/" "${GITHUB_WORKSPACE}/"
 
           cd "${GITHUB_WORKSPACE}"
           git config user.name "github-actions[bot]"
