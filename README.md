@@ -11,6 +11,6 @@ The site is a lightweight static website hosted with GitHub Pages. It includes:
 
 ## Updating the site
 
-Most content is contained in index.html. Visual styling lives in assets/css/style.css, while the small theme and navigation interactions are in assets/js/main.js.
+Most content is contained in index.html. Visual styling lives in assets/css/style.css, while the small theme and navigation interactions are in assets/js/main.js. The profile portrait is stored in assets/img.
 
 Publishing is automatic whenever changes are committed to the branch selected in the repository's GitHub Pages settings.
