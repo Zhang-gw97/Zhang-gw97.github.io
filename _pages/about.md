@@ -6,8 +6,8 @@ subtitle:
 
 profile:
   align: right
-  image: profile.svg
-  image_circular: true # crops the image to make it circular
+  image: prof_pic.jpg
+  image_circular: false # keep the full portrait composition
   more_info: >
     <p>PhD Candidate</p>
     <p>Department of Data Science and AI</p>
